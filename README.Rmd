@@ -1,0 +1,34 @@
+---
+title: "02-compile-advanced-r-YuanweiQiao"
+author: "Yuanwei Qiao"
+date: "9/12/2020"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# 02-compile-advanced-r-YuanweiQiao
+
+## Environment Info
+```{r session-info}
+sessionInfo()
+```
+
+## Compiling Advanced R
+
+### Step 1
+First I had to download Rtools then it didn’t work because I didn’t have the newest version of R. I installed the newer version of RStudio but it didn’t work because I needed the newer version of R. Then I had to go and install the latest version of R which is the 4.0.2 version. 
+
+I encountered trouble when I tried to knit, I found out that it was the wrong command
+I then used the build button but that didn’t work because it can only work inside an RProject. I then switched my project(none) to adv-r Project. 
+
+## Step 2
+install packages listed in `Description` file. 
+
+## Step 3
+install fonts: inconsolata, andale mono, 
+
+
